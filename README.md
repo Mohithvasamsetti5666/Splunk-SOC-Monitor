@@ -23,8 +23,8 @@ See `spl_queries.txt` for all queries.
 
 ## 📸 Screenshots
 
-![Dashboard Full View](screenshot-1.png)  
-![Panel View](screenshot-2.png)
+[Dashboard Full View](screenshot-1.png)  
+[Panel View](screenshot-3.png)
 
 ## 🎯 What I Learned
 
