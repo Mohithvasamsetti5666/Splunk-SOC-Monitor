@@ -1,0 +1,26 @@
+For Panel 1: Total Events in Splunk:
+SPL:
+index=_internal | stats count AS "Total Events"
+
+
+
+For Panel 2: Top Components
+SPL:
+index=_internal | top component
+
+
+
+For Panel 3: Event Activity Over Time
+SPL:
+index=_internal | timechart count
+
+
+For Panel 4: Top Host Machines Logging to Splunk
+SPL:
+index=_internal | top host
+
+
+
+For Panel 5: Top Sourcetypes
+SPL:
+index=_internal | top sourcetype
